@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 const init = ()=>{
   // El operador || significa que si lo que esta en el local storage es null va a retornar un arreglo vacio
